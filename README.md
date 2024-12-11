@@ -71,19 +71,21 @@ To clone the project and get started, follow these steps:
 
    Use the following command to clone the repository to your local machine:
    
-   ```bash
-   git clone https://github.com/AHMADanis/StockTrends.git
-
+      ```bash
+      git clone https://github.com/AHMADanis/StockTrends.git
 Replace your-username with your GitHub username.
 
-Navigate to the project directory:
-``` cd StockTrends
-
-bash
-Copy code
+### Navigate to the Project Directory
+```bash
 cd StockTrends
-Set up a virtual environment:
+```bash
 
+
+### Navigate to the Project Directory
+   ```bash
+   cd StockTrends
+
+### Set Up a Virtual Environment
 It's recommended to set up a virtual environment to keep dependencies isolated for this project. Run the following command to create the virtual environment:
 
 bash
@@ -122,7 +124,7 @@ If you'd like to contribute to the project, follow these steps:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -am 'Add new feature').
+Commit your changes (git commit -am 'Add ne
 Push to the branch (git push origin feature-name).
 Open a pull request.
 License
