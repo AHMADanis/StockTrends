@@ -1,7 +1,7 @@
 import pandas as pd
 from yfinance import Ticker
 
-def fetch_data(symbol):
+def fetch_data(symbol, interval):
     """
     Fetches historical stock data for the given symbol using Yahoo Finance.
 
@@ -11,5 +11,5 @@ def fetch_data(symbol):
     Returns:
         pandas.DataFrame: DataFrame containing historical stock data.
     """
-    data = Ticker(symbol).history(period='1y')
+    data = Ticker(symbol).history(period='1mo', interval=interval)
     return data
